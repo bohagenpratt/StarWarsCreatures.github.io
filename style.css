@@ -1,0 +1,24 @@
+body {
+  background-image: url(AdobeStock_427427908.jpeg); 
+  background-size: contain;
+  background-color: black; 
+  font-family: 'Libre Franklin', sans-serif;
+  color: #efcc00; 
+}
+h1 {
+	font-size: 3em;
+	 font-weight: bold;
+	 font-family: 'Dela Gothic One', sans-serif;
+}
+h1, h2 {
+	text-align: center;	
+}
+
+.crawltext {
+	margin: 4em;
+		
+}
+.longtime {
+	text-align: center;
+	color: lightskyblue;	
+}
