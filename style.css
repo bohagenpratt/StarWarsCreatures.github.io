@@ -10,13 +10,15 @@ h1 {
 	 font-weight: bold;
 	 font-family: 'Dela Gothic One', sans-serif;
 }
-h1, h2 {
+h1 {
 	text-align: center;	
 }
 
 .crawltext {
-	margin: 4em;
-		
+	margin: auto;	
+	text-align: center;
+	box-sizing: content-box;
+	width: 60%;
 }
 .longtime {
 	text-align: center;
