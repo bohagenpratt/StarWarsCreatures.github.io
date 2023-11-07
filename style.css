@@ -1,7 +1,7 @@
-body {
-  background-image: url(AdobeStock_427427908.jpeg); 
-  background-size: contain;
-  background-color: black; 
+body {  
+  background-image: url(AdobeStock_427427908.jpeg);
+  background-color: black;
+  background-size: contain; 
   font-family: 'Libre Franklin', sans-serif;
   color: #efcc00; 
 }
@@ -9,18 +9,151 @@ h1 {
 	font-size: 3em;
 	 font-weight: bold;
 	 font-family: 'Dela Gothic One', sans-serif;
+	 text-align: center;
 }
-h1 {
-	text-align: center;	
+h2 {
+		text-align: center;
+		font-size: 2em;
+		font-family: 'Dela Gothic One', sans-serif;
 }
-
+h3 {
+	font-size: 2em;	
+}
+h4 {
+	font-size: 1.5em;
+}
+#quickref {
+	margin: auto;
+}
+#quickref th {
+	border: solid 1px #efcc00;
+	padding: 1em;
+	text-align: center;
+	background-color: #652770;
+	font-size: larger;
+	font-weight: bold; 
+	font-variant: small-caps;
+	border-radius: 10px;
+	}
+#quickref td {
+	border: solid 1px #efcc00;
+	padding: 1em;
+	text-align: center;
+	background-color: gray;
+}
+#quickref ul {
+	list-style-type: square;
+}
+#aliencol {
+	font-size: larger;
+	font-weight: bold; 
+	font-variant: small-caps;
+}
+#creaturecol {
+	font-size: larger;
+	font-weight: bold; 
+	font-variant: small-caps;
+}
+#humancol {
+	font-size: larger;
+	font-weight: bold; 
+	font-variant: small-caps;
+}
 .crawltext {
 	margin: auto;	
 	text-align: center;
 	box-sizing: content-box;
 	width: 60%;
+	font-size: larger;
+	font-weight: bold;
 }
 .longtime {
+	color: lightskyblue;
 	text-align: center;
-	color: lightskyblue;	
 }
+.aliensvcreatures {
+	text-align: center;
+}
+.aliensheader {
+	text-align: left;
+	margin-left: 1.5em;
+}
+.creaturesheader {
+	text-align: left;
+	margin-left: 1.5em;
+}
+.referenceheader {
+	text-align: center;
+}
+hr {
+		align: center;
+		border: none; 
+		height: 2px;
+		margin: auto;
+		width: 80%;
+		color: crimson;
+		background-color: crimson;
+	}
+.containerone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.containerone img {
+	border-radius: 10px;
+}
+.creatureintrotext {
+	color: lightskyblue;
+	margin-left: 1em;
+	font-size: larger;
+	width: 40%;
+	text-align: center;
+}
+.containertwo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.containertwo img {
+	border-radius: 10px; 
+}
+.alienstext {
+	color: lightskyblue;
+	font-size: larger;
+	text-align: justify;
+	width: 70%;
+	margin: auto;
+}
+.containerthree {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  justify-content: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.containerthree img {
+	border-radius: 10px; 
+}
+.creaturestext {
+	color: lightskyblue;
+	font-size: larger;
+	text-align: justify;
+	width: 70%;
+	margin: auto;
+}
+figcaption {
+	text-align: center;
+	}
+a:visited {
+	color: #652770;
+}
+a {
+	color: #efcc00;
+}
+
