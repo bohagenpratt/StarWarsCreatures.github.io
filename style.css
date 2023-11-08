@@ -117,7 +117,6 @@ h4 {
 	margin-left: 1.5em;
 }
 hr {
-		align: center;
 		border: none; 
 		height: 2px;
 		margin: auto;
@@ -183,7 +182,7 @@ hr {
 }
 .wampapics {
 	flex-direction: column;
-	align-items: left;
+	align-items: start;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -213,7 +212,7 @@ hr {
 }
 .banthapics {
 	flex-direction: column;
-	align-items: left;
+	align-items: start;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -237,6 +236,9 @@ hr {
 }
 .banthagall img {
 	border-radius: 10px; 
+}
+.refsone, .refstwo, .otherrefs {
+	color: lightskyblue;
 }
 .feet {
 	position: sticky;
