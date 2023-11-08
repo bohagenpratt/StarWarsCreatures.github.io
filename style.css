@@ -5,6 +5,12 @@ body {
   font-family: 'Libre Franklin', sans-serif;
   color: #efcc00; 
 }
+footer {
+		position: fixed;
+		bottom: 0;
+		width: 100vw;
+		justify-content: center;
+	}
 h1 {
 	font-size: 3em;
 	 font-weight: bold;
@@ -70,6 +76,19 @@ h4 {
 .longtime {
 	color: lightskyblue;
 	text-align: center;
+}
+.navmenu {
+	display: flex;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: larger;
+  font-weight: bold;
+  justify-content: center;
+}
+.navmenu li {
+	float: left;
+	padding: 1em;
+	list-style-type: none;
 }
 .aliensvcreatures {
 	text-align: center;
@@ -187,6 +206,7 @@ hr {
 }
 .wampagall figcaption {
 	text-align: left;
+	font-size: smaller;
 }
 .banthagall {
 	display: inline-flex;
@@ -213,9 +233,14 @@ hr {
 }
 .banthagall figcaption {
 	text-align: left;
+	font-size: smaller;
 }
 .banthagall img {
 	border-radius: 10px; 
+}
+.feet {
+	position: sticky;
+	margin-top: 2em;
 }
 figcaption {
 	text-align: center;
@@ -226,4 +251,5 @@ a:visited {
 a {
 	color: #efcc00;
 }
+
 
