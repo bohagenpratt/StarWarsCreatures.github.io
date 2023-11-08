@@ -85,6 +85,18 @@ h4 {
 .referenceheader {
 	text-align: center;
 }
+.wampaheader {
+	text-align: left;	
+	margin-left: 1.5em;
+}
+.wamprofile {
+	color: #efcc00;
+	justify-items: center;
+}
+.banthaheader {
+	text-align: left;	
+	margin-left: 1.5em;
+}
 hr {
 		align: center;
 		border: none; 
@@ -146,6 +158,64 @@ hr {
 	text-align: justify;
 	width: 70%;
 	margin: auto;
+}
+.wampagall {
+	display: inline-flex;
+}
+.wampapics {
+	flex-direction: column;
+	align-items: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.wampainfo {
+	justify-content: center;
+	color: lightskyblue;
+	font-size: medium;
+	text-align: start;
+	margin-left: 3em;
+	margin-top: 1.5em;
+}
+.wampalist li {
+	padding: 5px;
+}
+.wampastories {
+	margin-top: 2em
+}
+.wampagall img {
+	border-radius: 10px; 
+}
+.wampagall figcaption {
+	text-align: left;
+}
+.banthagall {
+	display: inline-flex;
+}
+.banthapics {
+	flex-direction: column;
+	align-items: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.banthainfo {
+	justify-content: center;
+	color: lightskyblue;
+	font-size: medium;
+	text-align: start;
+	margin-left: 3em;
+	margin-top: 1.5em;
+}
+.banthalist li {
+	padding: 5px;
+}
+.banthastories {
+	margin-top: 2em
+}
+.banthagall figcaption {
+	text-align: left;
+}
+.banthagall img {
+	border-radius: 10px; 
 }
 figcaption {
 	text-align: center;
